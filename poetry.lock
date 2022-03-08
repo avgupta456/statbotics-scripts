@@ -840,6 +840,17 @@ cachecontrol = ">=0.12.6,<0.13.0"
 requests = ">=2.24.0,<3.0.0"
 
 [[package]]
+name = "tabulate"
+version = "0.8.9"
+description = "Pretty-print tabular data"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+widechars = ["wcwidth"]
+
+[[package]]
 name = "terminado"
 version = "0.12.1"
 description = "Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
@@ -945,7 +956,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "de6bd1afadd6dc87932fadf90b540d83b7615eeba5d3ce9aec80476f981109a4"
+content-hash = "6db950fa2cbd4f1569de280db66b78d98c4d97c76072527d87f20a5d4277205b"
 
 [metadata.files]
 appnope = [
@@ -1658,6 +1669,10 @@ six = [
 statbotics = [
     {file = "statbotics-1.0.0-py3-none-any.whl", hash = "sha256:36159bb802e448dd94edb9306c1bb4bc891ca7037a1ba488bbbc34c84d0d9920"},
     {file = "statbotics-1.0.0.tar.gz", hash = "sha256:ab0b2495b277c6697b110c6ccc11f6059a409135dd6959ce407da606b1456333"},
+]
+tabulate = [
+    {file = "tabulate-0.8.9-py3-none-any.whl", hash = "sha256:d7c013fe7abbc5e491394e10fa845f8f32fe54f8dc60c6622c6cf482d25d47e4"},
+    {file = "tabulate-0.8.9.tar.gz", hash = "sha256:eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"},
 ]
 terminado = [
     {file = "terminado-0.12.1-py3-none-any.whl", hash = "sha256:09fdde344324a1c9c6e610ee4ca165c4bb7f5bbf982fceeeb38998a988ef8452"},
